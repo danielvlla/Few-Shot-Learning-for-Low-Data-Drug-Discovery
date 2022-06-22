@@ -11,7 +11,7 @@ Implementations for the following machine learning models:
 
 The last 3 networks also include our implementation of the iterative refinement LSTM from [Low Data Drug Discovery with One-Shot Learning](https://pubs.acs.org/doi/10.1021/acscentsci.6b00367).
 
-The Jupyter notebooks are run on Google Colab, with Google Drive mounted. Before uploading the Repo to Google Drive, run the `create_dirs.py` script by running `python create_dirs.py`. Empty directories will be created for every technique, which will serve as the directories for the outputs from each respective Colab notebook.
+The Jupyter notebooks are run on Google Colab, with Google Drive mounted. Before uploading the Repo to Google Drive, run the `create_dirs.py` script by running `python create_dirs.py`. Empty directories will be created for every technique, which will serve as the directories for the outputs from each respective Colab notebook. The experiments which utilise ECFP rather than GCNs can be run on Tox21 data using the `Prototypical Nets Tox21 ECFP.ipynb` notebook.
 
 - Tox21 
   
