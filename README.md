@@ -13,13 +13,14 @@ The last 3 networks also include our implementation of the iterative refinement 
 
 The Jupyter notebooks are run on Google Colab, with Google Drive mounted. Before uploading the Repo to Google Drive, run the `create_dirs.py` script by running `python create_dirs.py`. Empty directories will be created for every technique, which will serve as the directories for the outputs from each respective Colab notebook. The experiments which utilise ECFP rather than GCNs can be run on Tox21 data using the `Prototypical Nets Tox21 ECFP.ipynb` notebook.
 
-- Tox21 
+## Tox21 
   
 The dataset is obtained from the DeepChem AWS bucket. Accessed from: https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/tox21.csv.gz. Last Accessed: 08 Nov 2021 in CSV format.
-- MUV
+
+## MUV
   
 The dataset was obtained from the DeepChem AWS bucket. Accessed from: https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/muv.csv.gz. Last Accessed: 08 Nov 2021 in CSV format.
 
-- Database of Useful (Docking) Decoys — Enhanced (DUD-E)
+## Database of Useful (Docking) Decoys — Enhanced (DUD-E)
   
 The data for the GPCR subset was obtained directly from the DUD-E website.Accessed from: http://dude.docking.org/subsets. Last Accessed: 08 Nov 2021. The actives and decoys for the targets within the DUD-E subsets are provided as separate SMILES files. These files are loaded using the Pandas library and aggregated in a CSV file contained all the actives and decoys for the GPCR subset.
